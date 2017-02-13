@@ -1,0 +1,65 @@
+body{
+	font-family:Arial, sans-serif;;
+	font-size:10px;
+	color:black;
+}
+div#pageWrapper{
+	width:800px;
+	margin:0 auto;
+}
+h2{
+	font-family:Verdana;
+	font-weight: 800;
+	font-size:24px;
+	color: #000708;
+	padding-right:10px;
+	text-align:center;
+}
+table#weatherTable tr td, 
+table#weatherTable tr th{
+	border:3px solid black;
+	color:black
+	font-size:10px;
+	border-radius:.5px;
+	padding:2px 5px;
+}
+table#weatherTable tr th{
+	
+	font-weight:800;
+	text-align:center;
+	height:26px;
+	background-color:#66e2eb;
+}
+table#weatherTable{
+	width:800px;
+	text-align:center;
+}
+table#weatherTable tr:nth-child(2){
+	background-color:#FFF;
+	color:black;
+}
+th.id{
+	width:30px;
+}
+th.tsRow{
+	width:90px;
+}
+th.tempRow{
+	width:90px;
+}
+th.feelRow{
+	width:90px;
+}
+th.weatherRow{
+	width:120px;
+}
+th.precipRow{
+	width:100px;
+}
+th.humidityRow{
+        width:60px;
+}
+
+th.windRow{
+	width:300px;
+}
